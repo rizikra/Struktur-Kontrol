@@ -1,7 +1,8 @@
+//Latihan Struktur Kontrol
 public class CekNilai {
 	public static void main (String[] args){
 		
-		try {int input = Integer.parseInt(args[0]);
+	try {int input = Integer.parseInt(args[0]);
 		int nilai = input;
 		
 		if (nilai >= 85 &&  nilai <= 100){
@@ -20,10 +21,11 @@ public class CekNilai {
 			System.out.println("E");
 		}
 		else{
-			System.out.println("Nilai Tidak Valid, Silakan Cek Kembali !");	
+			System.out.println("Nilai Salah, Silakan Cek Kembali !");	
 		}
 	}	
 		catch (Exception e){
+			System.out.println(e.getMessage());	
 			System.out.println("Nilai Tidak Valid, Silakan Cek Kembali !");	
 		}
 	}
