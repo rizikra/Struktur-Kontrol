@@ -32,5 +32,7 @@ public class StrukturKontrolIf {
 		else{
 			System.out.println("Boleh keluar rumah meski payung tidak ada");
 		}
+		System.out.println();
+		System.out.println();
 	}	
 }
